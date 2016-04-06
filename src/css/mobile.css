@@ -1,0 +1,273 @@
+/*Mobiles*/
+@media screen and (max-width:480px){
+
+	body{
+		background-color:white;
+	}
+	
+	/**************************************HEADER**************************************/
+	.header{
+		height: 75px;
+		width:100%;
+		background-color:#089dbe;
+	}
+	
+	.headerButtons{
+		font-size:13px;
+
+	}
+	
+	.leftButtons{
+		text-align:right;
+		margin-top: 30px;
+		float: left;
+		width: 40%;
+		height: 50%;
+	}
+
+	.button{
+		cursor: pointer;
+		display:inline;
+		color: black;
+
+	}
+	.button:hover{
+		color:#105590;
+	}
+	
+	.logo{
+		float: left;
+		height:100%;
+		width:20%;
+	}
+	
+	.logo img{
+		float: left;
+		height: 100%;
+	}
+	
+	.rightButtons{
+		text-align:left;
+		margin-top:30px;
+		float:left;
+		width:40%;
+		height: 50%;
+	}
+	
+	#aboutButton{
+		margin-left: 15px;
+		margin-right:15%;
+	}
+	#worksButton{
+		margin-right: 15px;
+		margin-left: 15%;
+	}
+	
+	/**************************************CONTENT**************************************/		
+	.content{
+		width:100%;
+		height:700px;
+		font-size:50px;
+	}
+	
+	/***********************TITLE***********************/
+	#title{
+		width:50%;
+		margin:0 auto;
+		height:40px;
+		font-size:30px;
+		color: #089dbe;
+		text-shadow: 2px 2px black;
+		border-bottom-style:dotted;
+		border-color:#089dbe;
+	}
+	
+	/***********************MENU***********************/
+	.menu{
+		width: 100%;
+		height:40px;
+		border-bottom-style:dotted;
+		border-color:#089dbe;
+		font-size:10px;
+	}
+
+	/***********************REST***********************/
+	#rest{
+		height:80%;
+		width: 100%;
+		background-color:blue;
+	}
+	
+	/****************CV****************/
+	#photo{
+		margin-left:30px;
+	}
+	.details{
+		color: white;
+		margin-top:40px;
+		font-size:20px;
+		float:left;
+		width: 325px;
+		height: 180px;
+		border-bottom-style: dashed;
+		border-bottom-color: #089dbe;
+		text-align:left;
+	}
+		
+	.experience{
+		text-align:left;
+		font-size:20px;
+		width: 525px;
+		margin-right:75px;
+		height: 200px;
+		float:left;
+		margin-left:35px;
+		margin-top: 10px;
+		border-bottom-style: dashed;
+		border-bottom-color: #089dbe;
+	}
+		
+	.sectionName{
+		margin-left: 30px;
+		font-size: 30px;
+	}
+			
+	.textSection{
+		margin-top: 10px;
+		font-size: 20px;
+		line-height: 40px;
+	}
+	
+	#period{
+		margin-top: 10px;
+		font-size: 20px;
+		line-height: 20px;
+	}
+	
+	#job{
+		font-size: 16px;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	
+	/***********************SOCIALMENU***********************/
+	.socialMenu img{
+		height:100%;
+		margin-top: 0px;
+		margin-left: 1%;
+		background-color:pink;
+	}
+	
+	.socialMenu{
+		margin-left:10%;
+		width: 80%;
+		height:40px;
+		border-top-style:dotted;
+		border-color:#089dbe;
+		background-color:red;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/**************************************FOOTER**************************************/		
+	.footer{
+		position:fixed;
+		bottom:0;
+		width:100%;
+		background-color: #121212;
+		height:50px;
+	}
+	
+	.socialMedia{
+		height: 50px;
+		width: 200px;
+		margin:0 auto;
+	}
+	
+	.socialMediaButtons img{
+		width:40px;
+	}
+	
+	#social1{
+		margin-top:6.25px;
+	}
+
+	#social2{
+		margin-top:6.25px;
+	}
+
+	#category{
+		display: none;
+	}
+
+	#social3{
+		margin-top:6.25px;
+	}
+
+	#social4{
+		border-radius: 50%;
+		margin-top:6.25px;
+	}
+	
+	.socialMediaButtons{
+		color: white;
+		display:inline;
+	}
+	
+	#social1{
+		float:left;
+		cursor:pointer;
+		border-radius: 50%;
+		opacity:0.1;
+	}
+	#social1:hover{
+		opacity:1;
+	}
+
+	#social2{
+		float:left;
+		margin-left:10px;
+		cursor:pointer;
+		border-radius: 50%;
+		opacity:0.1;
+	}
+	#social2:hover{
+		opacity:1;
+	}
+
+	#social3{
+		float:left;
+		cursor:pointer;
+		border-radius: 50%;
+		opacity:0.2;
+		margin-left:10px;
+	}
+	#social3:hover{
+		opacity:1;
+	}
+
+
+	#social4{
+		float:left;
+		cursor:pointer;
+		border-radius: 50%;
+		opacity:0.3;
+		margin-left:10px;
+	}
+	#social4:hover{
+		opacity:1;
+	}
+	
+}

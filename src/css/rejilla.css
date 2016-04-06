@@ -1,0 +1,846 @@
+*{
+	margin:0;	
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+
+/*Tablets*/
+@media screen and (max-width: 768px){
+	
+/**************************************GENERAL**************************************/
+	body{
+		background-image: url('../../media/bg.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: bottom center;
+		height: 100%;
+	}
+
+	/**************************************HEADER**************************************/
+	.header{
+		height: 150px;
+		width:768px;
+		margin: auto;
+		margin-top:25px;
+	}
+	
+	.headerButtons{
+		font-size:20px;
+		padding-top:20px;
+	}
+	
+	.leftButtons{
+		text-align:right;
+		margin-top: 37.5px;
+		float: left;
+		width: 244px;
+		height: 50%;
+	}
+
+	.button{
+		cursor: pointer;
+		display:inline;
+		color: #089dbe;
+		text-shadow: 2px 2px black;
+	}
+	
+	.button:hover{
+		color:#105590;
+	}
+	
+	.logo{
+		float: left;
+		height:100%;
+		width:280px;
+	}
+	
+	.logo img{
+		margin-left:65px;
+		float: left;
+		height: 100%;
+	}
+	
+	.rightButtons{
+		text-align:left;
+		margin-top:37.5px;
+		float:left;
+		width:244px;
+		height: 50%;
+	}
+	
+	#aboutButton{
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	#worksButton{
+		margin-left: 50px;
+		margin-right: 60px;
+	}
+	
+	/**************************************CONTENT**************************************/
+	.content{
+		width:700px;
+		margin:0 auto;
+		text-align:center;
+		margin-top:25px;
+		margin-bottom:100px;
+		color:black;
+		opacity:0;
+		cursor:default;
+	}
+	
+	/***********************TITLE***********************/
+	#title{
+		width:700px;
+		font-size:100px;
+		color: #089dbe;
+		text-shadow: 2px 2px black;
+	}
+	
+	/***********************MENU***********************/
+	.menu{
+		float:left;
+		width: 150px;
+		height:60%;
+		border-right-style:solid;
+		border-color:#089dbe;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		padding-top: 20%;
+		line-height: 25px;
+		font-size:15px;
+	}
+	
+	/***********************SOCIALMENU***********************/
+	.socialMenu{
+		float:left;
+		width: 100px;
+		height:60%;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		border-left-style:solid;
+		border-color:#089dbe;
+	}
+	
+	.socialMenu img{
+		height:45px;
+		display:block;
+		margin-left: 25px;
+		margin-bottom: 30px;
+	}
+	
+	/***********************REST***********************/
+	#rest{
+		float:left;
+		height:80%;
+		width: 450px;
+	}
+	
+	/****************CV****************/
+	#photo{
+		float:left; 
+		margin-left:30px;
+		height:200px;
+	}
+	
+	.details{
+		color: white;
+		margin-top:40px;
+		font-size:20px;
+		float:left;
+		width: 240px;
+		height: 180px;
+		border-bottom-style: dashed;
+		border-bottom-color: #089dbe;
+		text-align:left;
+	}
+		
+	.experience{
+		text-align:left;
+		font-size:20px;
+		width: 415px;
+		margin-right:75px;
+		height: 200px;
+		float:left;
+		margin-left:35px;
+		margin-top: 10px;
+		border-bottom-style: dashed;
+		border-bottom-color: #089dbe;
+	}
+		
+	.sectionName{
+		margin-left: 30px;
+		font-size: 30px;
+	}
+			
+	.textSection{
+		margin-top: 10px;
+		font-size: 20px;
+		line-height: 40px;
+	}
+	
+	#period{
+		margin-top: 10px;
+		font-size: 20px;
+		line-height: 20px;
+	}
+	
+	#job{
+		font-size: 16px;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	
+	/**************************************FOOTER**************************************/
+	.footer{
+		width:100vh;
+	}
+	
+	.socialMedia{
+		width:100vh;
+	}
+	
+	.socialMediaButtons{
+		color: white;
+		display:inline;
+	}
+	
+	#social1{
+		margin-left:10vh;
+		float:left;
+		cursor:pointer;
+		border-radius: 50%;
+		opacity:0.4;
+	}
+	#social1:hover{
+		opacity:1;
+	}
+
+	#social2{
+		float:left;
+		margin-left:50px;
+		cursor:pointer;
+		border-radius: 50%;
+		opacity:0.2;
+	}
+	#social2:hover{
+		opacity:1;
+	}
+
+	#category{
+		display:none
+	}
+
+	#social3{
+		float:left;
+		cursor:pointer;
+		border-radius: 50%;
+		opacity:0.5;
+		margin-left:50px;	
+	}
+	#social3:hover{
+		opacity:1;
+	}
+
+	#social4{
+		float:left;
+		margin-left:50px;	
+		cursor:pointer;
+		border-radius: 50%;
+		opacity:0.3;
+	}
+	#social4:hover{
+		opacity:1;
+	}
+
+
+	.listNames{
+		cursor:pointer;
+	}
+
+	.listNames:hover{
+		color:#089dbe;
+		text-shadow: 2px 2px black;	
+	}
+	
+}
+
+/*Laptop*/
+@media screen and (min-width: 768px) and (max-width: 1399px) {
+	/**************************************GENERAL**************************************/
+	body{
+		background-image: url('../../media/bg.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: bottom center;
+		height: 100%;
+	}
+
+	/**************************************HEADER**************************************/
+	.header{
+		height: 150px;
+		width:768px;
+		margin: auto;
+		margin-top:25px;
+	}
+	
+	.headerButtons{
+		font-size:20px;
+		padding-top:20px;
+	}
+	
+	.leftButtons{
+		text-align:right;
+		margin-top: 37.5px;
+		float: left;
+		width: 244px;
+		height: 50%;
+	}
+
+	.button{
+		cursor: pointer;
+		display:inline;
+		color: #089dbe;
+		text-shadow: 2px 2px black;
+	}
+	
+	.button:hover{
+		color:#105590;
+	}
+	
+	.logo{
+		float: left;
+		height:100%;
+		width:280px;
+	}
+	
+	.logo img{
+		margin-left:65px;
+		float: left;
+		height: 100%;
+	}
+	
+	.rightButtons{
+		text-align:left;
+		margin-top:37.5px;
+		float:left;
+		width:244px;
+		height: 50%;
+	}
+	
+	#aboutButton{
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	#worksButton{
+		margin-left: 50px;
+		margin-right: 60px;
+	}
+	
+	/**************************************CONTENT**************************************/
+	.content{
+		width:700px;
+		margin:0 auto;
+		text-align:center;
+		margin-top:25px;
+		margin-bottom:100px;
+		color:black;
+		opacity:0;
+		cursor:default;
+	}
+	
+	/***********************TITLE***********************/
+	#title{
+		width:700px;
+		font-size:100px;
+		color: #089dbe;
+		text-shadow: 2px 2px black;
+	}
+	
+	/***********************MENU***********************/
+	.menu{
+		float:left;
+		width: 150px;
+		height:60%;
+		border-right-style:solid;
+		border-color:#089dbe;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		padding-top: 20%;
+		line-height: 25px;
+		font-size:15px;
+	}
+	
+	/***********************SOCIALMENU***********************/
+	.socialMenu{
+		float:left;
+		width: 100px;
+		height:60%;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		border-left-style:solid;
+		border-color:#089dbe;
+	}
+	
+	.socialMenu img{
+		height:45px;
+		display:block;
+		margin-left: 25px;
+		margin-bottom: 30px;
+	}
+	
+	/***********************REST***********************/
+	#rest{
+		float:left;
+		height:80%;
+		width: 450px;
+	}
+	
+	/****************CV****************/
+	#photo{
+		float:left; 
+		margin-left:30px;
+		height:200px;
+	}
+	
+	.details{
+		color: white;
+		margin-top:40px;
+		font-size:20px;
+		float:left;
+		width: 240px;
+		height: 180px;
+		border-bottom-style: dashed;
+		border-bottom-color: #089dbe;
+		text-align:left;
+	}
+		
+	.experience{
+		text-align:left;
+		font-size:20px;
+		width: 415px;
+		margin-right:75px;
+		height: 200px;
+		float:left;
+		margin-left:35px;
+		margin-top: 10px;
+		border-bottom-style: dashed;
+		border-bottom-color: #089dbe;
+	}
+		
+	.sectionName{
+		margin-left: 30px;
+		font-size: 30px;
+	}
+			
+	.textSection{
+		margin-top: 10px;
+		font-size: 16px;
+		line-height: 40px;
+	}
+	
+	#period{
+		margin-top: 10px;
+		font-size: 20px;
+		line-height: 20px;
+	}
+	
+	#job{
+		font-size: 16px;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	
+	/**************************************FOOTER**************************************/
+	.socialMediaButtons{
+		color: white;
+		display:inline;
+	}
+	
+	#social1{
+		margin-left:100px;
+		float:left;
+		cursor:pointer;
+		border-radius: 50%;
+		opacity:0.4;
+	}
+	#social1:hover{
+		opacity:1;
+	}
+
+	#social2{
+		float:left;
+		margin-left:50px;
+		cursor:pointer;
+		border-radius: 50%;
+		opacity:0.2;
+	}
+	#social2:hover{
+		opacity:1;
+	}
+
+	#category{
+		float:left;
+		font-size:45px;
+		opacity:0.5;
+		margin-left: 9%;
+		cursor:default;
+	}
+
+	#social3{
+		float:right;
+		cursor:pointer;
+		border-radius: 50%;
+		opacity:0.5;
+		margin-right:175px;	
+	}
+	#social3:hover{
+		opacity:1;
+	}
+
+	#social4{
+		float:right;
+		margin-right:50px;	
+		cursor:pointer;
+		border-radius: 50%;
+		opacity:0.4;
+	}
+	#social4:hover{
+		opacity:1;
+	}
+
+
+
+	.listNames{
+		cursor:pointer;
+	}
+
+	.listNames:hover{
+		color:#089dbe;
+		text-shadow: 2px 2px black;	
+	}
+	
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1400px) {
+	/**************************************GENERAL**************************************/
+	body{
+		background-image: url('../../media/bg.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: bottom center;
+		height: 100%;
+	}
+
+	/**************************************HEADER**************************************/
+	.header{
+		height: 150px;
+		width:1400px;
+		margin: auto;
+		margin-top:25px;
+	}
+	
+	.headerButtons{
+		font-size:25px;
+		padding-top:20px;
+	}
+	
+	.leftButtons{
+		text-align:right;
+		margin-top: 37.5px;
+		float: left;
+		width: 560px;
+		height: 50%;
+	}
+
+	.button{
+		cursor: pointer;
+		display:inline;
+		color: #089dbe;
+		text-shadow: 2px 2px black;
+	}
+	
+	.button:hover{
+		color:#105590;
+	}
+	
+	.logo{
+		float: left;
+		height:100%;
+		width:280px;
+	}
+	
+	.logo img{
+		margin-left:65px;
+		float: left;
+		height: 100%;
+	}
+	
+	.rightButtons{
+		text-align:left;
+		margin-top:37.5px;
+		float:left;
+		width:560px;
+		height: 50%;
+	}
+	
+	#aboutButton{
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	#worksButton{
+		margin-left: 50px;
+		margin-right: 60px;
+	}
+
+	/**************************************CONTENT**************************************/
+	.content{
+		height: 575px;
+		width:1050px;
+		margin:0 auto;
+		text-align:center;
+		margin-top:25px;
+		color:black;
+		opacity:0;
+		cursor:default;
+	}
+	
+	/***********************TITLE***********************/
+	#title{
+		width:1050px;
+		font-size:100px;
+		color: #089dbe;
+		text-shadow: 2px 2px black;
+	}
+	
+	/***********************MENU***********************/
+	.menu{
+		float:left;
+		width: 300px;
+		height:60%;
+		border-right-style:solid;
+		border-color:#089dbe;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		padding-top: 10%;
+		line-height: 50px;
+		font-size:25px;
+	}
+
+	/***********************REST***********************/
+	#rest{
+		float:left;
+		height:80%;
+		width: 600px;
+	}
+	
+	/****************ABOUT****************/
+	#about{
+		margin-top: 10px;
+		font-size:20px;
+		letter-spacing: 2px;
+		text-align:center;
+		color:white;
+		text-shadow: 1px 1px black;
+	}
+	/****************CV****************/
+	#photo{
+		float:left; 
+		margin-left:30px;
+		width: 200px;
+		height:230px;
+	}
+	.details{
+		color: white;
+		margin-top:40px;
+		font-size:20px;
+		float:left;
+		width: 325px;
+		height: 180px;
+		border-bottom-style: dashed;
+		border-bottom-color: #089dbe;
+		text-align:left;
+	}
+		
+	.experience{
+		text-align:left;
+		font-size:20px;
+		width: 525px;
+		margin-right:75px;
+		height: 200px;
+		float:left;
+		margin-left:35px;
+		margin-top: 10px;
+		border-bottom-style: dashed;
+		border-bottom-color: #089dbe;
+	}
+		
+	.sectionName{
+		margin-left: 30px;
+		font-size: 30px;
+	}
+			
+	.textSection{
+		margin-top: 10px;
+		font-size: 20px;
+		line-height: 40px;
+	}
+	
+	#period{
+		margin-top: 10px;
+		font-size: 20px;
+		line-height: 20px;
+	}
+	
+	#job{
+		font-size: 16px;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	
+	/***********************SOCIALMENU***********************/
+	.socialMenu img{
+		height:50px;
+		display:block;
+		margin-left: 50px;
+		margin-bottom: 30px;
+	}
+	
+	.socialMenu{
+		float:left;
+		width: 150px;
+		height:60%;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		border-left-style:solid;
+		border-color:#089dbe;
+	}
+
+	/**************************************FOOTER**************************************/		
+	.socialMediaButtons{
+		color: white;
+		display:inline;
+	}
+	
+	#social1{
+		float:left;
+		cursor:pointer;
+		border-radius: 50%;
+		opacity:0.5;
+	}
+	#social1:hover{
+		opacity:1;
+	}
+
+	#social2{
+		float:left;
+		margin-left:50px;
+		cursor:pointer;
+		border-radius: 50%;
+		opacity:0.3;
+	}
+	#social2:hover{
+		opacity:1;
+	}
+
+	#category{
+		float:left;
+		font-size:45px;
+		opacity:0.3;
+		margin-left: 24%;
+		cursor: default;
+	}
+
+	#social3{
+		float:right;
+		cursor:pointer;
+		border-radius: 50%;
+		opacity:0.5;
+	}
+	#social3:hover{
+		opacity:1;
+	}
+
+
+	#social4{
+		float:right;
+		margin-right:50px;	
+		cursor:pointer;
+		border-radius: 50%;
+		opacity:0.5;
+	}
+	#social4:hover{
+		opacity:1;
+	}
+
+	.listNames{
+		cursor:pointer;
+	}
+
+	.listNames:hover{
+		color:#089dbe;
+		text-shadow: 2px 2px black;	
+	}
+	
+	
+}
+
+
+/*High hight*/
+@media screen and (min-height: 400px) and (min-width: 481px){
+	.content{
+		height: 575px;
+	}
+	
+	.footer{
+		position:fixed;
+		bottom:0;
+		width:100%;
+		background-color: #121212;
+		height:50px;
+	}
+	
+	.socialMedia{
+		height: 50px;
+		background-color:#121212;
+		width: 840px;
+		margin:0 auto;
+	}
+	
+	.socialMediaButtons{
+		color: white;
+		display:inline;
+	}
+	
+	.socialMediaButtons img{
+		height:40px;
+	}
+	
+	#social1{
+		margin-top:6.25px;
+	}
+
+	#social2{
+		margin-top:6.25px;
+	}
+
+	#category{
+		height:35%;
+		margin-top:-5px;
+	}
+
+	#social3{
+		margin-top:6.25px;
+	}
+
+	#social4{
+		border-radius: 50%;
+		margin-top:6.25px;
+	}
+}

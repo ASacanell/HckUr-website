@@ -1,0 +1,40 @@
+body{
+	background-color:black;
+	color:white;
+	font-family: "Impact", Charcoal, sans-serif;
+}
+
+#center {
+position: absolute;
+top:-200px;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+
+height: 492px;
+width: 507px;
+
+}
+
+#name{
+	margin-left: 180px;
+	font-size: 60px;
+}
+
+.flag img{
+	height:100px;
+}
+
+#leftFlag{
+	margin-left:0px;
+}
+
+#rightFlag{
+	margin-left:300px;
+	
+}
+
+.flag{
+	display:inline;
+}
